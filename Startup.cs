@@ -45,7 +45,7 @@ namespace _3d_vehicle_issue_tracker
             }
 
             app.UseHttpsRedirection();
-            app.UseStaticFiles();
+            // app.UseStaticFiles();
             app.UseSpaStaticFiles();
 
             app.UseRouting();
